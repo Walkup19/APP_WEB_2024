@@ -30,10 +30,10 @@ function operacion() {
     result= document.getElementById("resultado").innerHTML = `<h2>${n1} ${simbolo} ${n2} = ${ope}</h2>`; 
    
 }
- else
- //result= document.getElementById("resultado").innerHTML = `<h2>Ingrese solo números...</h2>`;
-alert('Ingrse solo números...')
-   
+ else{result= document.getElementById("resultado").innerHTML = `<h2>Ingrese solo números...</h2>`;
+    alert('Ingrse solo números...')
+       }
+
 
 
 function isNumber(n)

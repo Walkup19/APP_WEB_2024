@@ -1,3 +1,60 @@
 /* Estilos del main, section y footer */
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+section h2{
+    text-align: center;
+    font-size: 2rem;
+    font-style: italic;
+    text-decoration: underline;
+    background-color: rgb(165, 224, 244);
+    padding: 3rem;
+}
+
+section p{
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+section img{
+    display: block;
+    width: 32rem;
+    height: 25rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+
+}
+section a img{
+    width: 2rem;
+    height: 2rem;
+    display: block;
+    margin: 1rem 1rem;
+    margin-left: auto;
+}
+footer{
+    background-color: black;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    padding: 1rem;
+    background-color: aliceblue;
+    text-decoration: none;
+    color: black;
+    width: auto;
+    height: 1rem;
+    border: 1px solid rgb(165, 224, 244);
+}
+footer a:hover{
+    background-color: rgb(108, 145, 178);
+}
+footer a:active{
+    background-color: rgb(114, 255, 114);
+}
 /* section */

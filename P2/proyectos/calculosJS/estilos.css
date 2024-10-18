@@ -29,8 +29,9 @@ h1 {
     color: white;
     height: 40px;
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 2vw;
     transition: 0.3 ease;
+    border-radius: 5px;
 }
 #but:hover{
     background-color: rgb(53, 53, 53);
@@ -45,10 +46,21 @@ form{
     padding-top: 2vw;
     padding-bottom: 2vw;
     text-align: center;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
 }
-.caja1{
+.caja1 #tipo{
     font-size: 1.5vw;
     font-weight: bold;
     width: auto;
+
     
+}
+hr{
+    color: white;
+}
+#resultado{
+    color: white;
+    text-align: center;
+    margin-top: 2vw;
 }
